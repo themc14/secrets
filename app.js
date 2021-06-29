@@ -29,7 +29,7 @@ const User = mongoose.model("User", userSchema);
 app.get("/",function(req,res){
   res.render("home");
 });
-
+  //ssss
 app.get("/login",function(req,res){
   res.render("login");
 });
